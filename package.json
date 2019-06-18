@@ -1,0 +1,48 @@
+{
+  "name": "workshop-event-sourcing",
+  "private": true,
+  "preferGlobal": true,
+  "engines": {
+    "node": "10.16.0"
+  },
+  "bin": {
+    "readyhost": "index.js"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node index.js serve"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bull": "^3.7.0",
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "err-code": "^1.1.2",
+    "execa": "^0.10.0",
+    "express": "^4.16.3",
+    "express-prettify": "0.0.10",
+    "fs-extra": "^7.0.0",
+    "geteventstore-promise": "3.1.1",
+    "lodash": "^4.17.5",
+    "node-eventstore-client": "^0.2.10",
+    "npm": "^6.9.0",
+    "request-promise": "4.2.2",
+    "rx": "^4.1.0",
+    "uuid": "^3.2.1",
+    "validator": "^9.4.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prestashop": "0.0.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "istanbul-api": "1.2.2",
+    "istanbul-reports": "1.1.4",
+    "jest": "^23.6.0",
+    "jest-plugin-context": "^2.9.0",
+    "jest-spec-reporter": "^1.0.3"
+  }
+}
